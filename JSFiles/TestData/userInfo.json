@@ -1,0 +1,16 @@
+{
+    "signup": {
+        "url": "https://treeoflove.com",
+        "UserName": "name1",
+        "Email": "test1234@gmail.com",
+        "Password": "Password0",
+        "SuccessLoginToastMsg": "You have logged in",
+        "ErrorToastMsg": "Error: The email address is badly formatted."
+    },
+    "login": {
+        "Email": "test1234@gmail.com",
+        "Password": "Password0",
+        "Welcome": "Welcome",
+        "ErrorToastMsg": "Error: The email address is badly formatted."
+    }
+}

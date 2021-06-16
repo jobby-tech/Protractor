@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/Installers": true,
+        "**/LetCode Videos": true,
+        "**/node_modules": true,
+        "**/OutputHTMLreport": true
+    },
+    "editor.minimap.enabled": false
+}

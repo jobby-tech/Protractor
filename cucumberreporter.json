@@ -1,0 +1,46 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "POM Concept",
+    "line": 3,
+    "id": "pom-concept",
+    "tags": [],
+    "uri": "FeatureFiles\\pomConcept.feature",
+    "elements": [
+      {
+        "id": "pom-concept;double-click-on-mouse",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Double Click on Mouse",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 45,
+            "name": "Launch the URL to Double Click",
+            "match": {
+              "location": "StepDefinitions\\pomConcept.step.ts:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13312000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

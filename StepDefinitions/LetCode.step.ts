@@ -326,3 +326,36 @@ Given('Launch the Drag and Drop URL', async () => {
 
 
   });
+
+
+
+
+
+  Given('Launch the URL and identify all the Table Content', async()=>{
+
+
+    await browser.get(browser.params.letcode);
+    let table = element(by.css('#shopping tbody'));
+    let tableRows=table.$$('tr');
+    let rowCount = await tableRows.count();
+    //let tableRows = element.all(by.css('#shopping tr'));
+     //console.log(await tableRows.count());
+    //  await tableRows.map(async(ele,i)=>{
+
+    //   let tableData = element.all(by.tagName('td'));
+    //   console.log(await tableData.count());
+      
+      
+    // }) 
+
+
+
+    //To get the Entire Table Content using For Loop
+    for (let i = 0; i <= rowCount; i++) {      
+      let rowValue = tableRows.get(i);
+      console.log(await rowValue.getText());      
+    }
+
+    
+
+  });

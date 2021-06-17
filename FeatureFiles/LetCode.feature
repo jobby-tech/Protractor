@@ -87,5 +87,10 @@ Feature: Let Code Practise
 
 
 
-Scenario: ForEach Iteration
-Given Launch the Element All URL  ForEach
+# Scenario: ForEach Iteration
+# Given Launch the Element All URL  ForEach
+
+
+
+Scenario: Identify all the Table Content
+Given Launch the URL and identify all the Table Content

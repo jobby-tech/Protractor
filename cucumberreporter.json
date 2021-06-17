@@ -1,31 +1,32 @@
 [
   {
     "keyword": "Feature",
-    "name": "POM Concept",
+    "name": "Let Code Practise",
     "line": 3,
-    "id": "pom-concept",
+    "id": "let-code-practise",
     "tags": [],
-    "uri": "FeatureFiles\\pomConcept.feature",
+    "uri": "FeatureFiles\\LetCode.feature",
     "elements": [
       {
-        "id": "pom-concept;double-click-on-mouse",
+        "id": "let-code-practise;identify-all-the-table-content",
         "keyword": "Scenario",
-        "line": 44,
-        "name": "Double Click on Mouse",
+        "line": 95,
+        "name": "Identify all the Table Content",
         "tags": [],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 45,
-            "name": "Launch the URL to Double Click",
+            "line": 96,
+            "name": "Launch the URL and identify all the Table Content",
             "match": {
-              "location": "StepDefinitions\\pomConcept.step.ts:95"
+              "location": "StepDefinitions\\LetCode.step.ts:334"
             },
             "result": {
-              "status": "passed",
-              "duration": 13312000000
+              "status": "failed",
+              "duration": 60003000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout._onTimeout (E:\\Ajin\\Protractor\\node_modules\\cucumber\\lib\\user_code_runner.js:76:18)\n    at listOnTimeout (internal/timers.js:554:17)\n    at processTimers (internal/timers.js:497:7)"
             }
           },
           {
@@ -36,7 +37,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           }
         ]

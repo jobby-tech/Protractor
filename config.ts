@@ -15,7 +15,7 @@ export let config : Config ={
     capabilities:{
         browserName:'chrome'
     },
-    specs:['../FeatureFiles/pomConcept.feature'],
+    specs:['../FeatureFiles/LetCode.feature'],
     cucumberOpts:{
         tags:"",
         require:['../JSFiles/StepDefinitions/*.js'],
@@ -23,8 +23,8 @@ export let config : Config ={
     },
 
     params:{                        //To Run Same Scripts in Different Environments
-        env:""              //use this - > protractor config.js --params.env="<URL>"
-        //env : "https://treeoflove.com" 
+        //env:""              //use this - > protractor config.js --params.env="<URL>"
+        letcode : "https://letcode.in/table" 
 
     },
     

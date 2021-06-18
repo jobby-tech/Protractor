@@ -25,7 +25,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 60003000000,
+              "duration": 84812000000,
               "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout._onTimeout (E:\\Ajin\\Protractor\\node_modules\\cucumber\\lib\\user_code_runner.js:76:18)\n    at listOnTimeout (internal/timers.js:554:17)\n    at processTimers (internal/timers.js:497:7)"
             }
           },
@@ -37,7 +37,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           }
         ]

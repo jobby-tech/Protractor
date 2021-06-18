@@ -338,6 +338,8 @@ Given('Launch the Drag and Drop URL', async () => {
     let table = element(by.css('#shopping tbody'));
     let tableRows=table.$$('tr');
     let rowCount = await tableRows.count();
+    console.log(rowCount);
+    
     //let tableRows = element.all(by.css('#shopping tr'));
      //console.log(await tableRows.count());
     //  await tableRows.map(async(ele,i)=>{
@@ -351,10 +353,10 @@ Given('Launch the Drag and Drop URL', async () => {
 
 
     //To get the Entire Table Content using For Loop
-    for (let i = 0; i <= rowCount; i++) {      
-      let rowValue = tableRows.get(i);
-      console.log(await rowValue.getText());      
-    }
+    // for (let i = 0; i <=☻ rowCount; i++) {      
+    //   let rowValue = tableRows.get(i);
+    //   console.log(await rowValue.getText());      
+    // }
 
     
 

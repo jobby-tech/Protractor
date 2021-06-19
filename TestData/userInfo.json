@@ -18,7 +18,8 @@
         "Email":"test1234@gmail.com",
         "Password":"Password0",
         "Welcome":"Welcome",
-        "ErrorToastMsg":"Error: The email address is badly formatted."
+        "ErrorToastMsg":"Error: The email address is badly formatted.",
+        "test":"jenkins"
 
 
     }
